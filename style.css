@@ -3,17 +3,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
     
-}
-.comic-neue-regular {
-  font-family: "Comic Neue", cursive;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .heart {
@@ -29,13 +26,13 @@ body {
 .heart::before {
     content: " ";
     position: absolute;
-    height: 32px; /* (160px / 5) */
-    width: 20px; /* (100px / 5) */
+    height: 32px; 
+    width: 20px; 
     background: red;
-    border-radius: 40px 40px 0 0; /* (200px / 5) */
+    border-radius: 40px 40px 0 0; 
     transform: rotate(-90deg);
-    top: 6px; /* (30px / 5) */
-    left: -6px; /* (30px / 5) */
+    top: 6px; 
+    left: -6px; 
     
 }
 
@@ -57,7 +54,6 @@ body {
   width: 100%;
   height: auto;
 }
-
 
 
 
