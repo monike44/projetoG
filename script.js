@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         urso.style.display = "none";
 
         if (!heartsShown) {
-            for (var i = 0; i < 100; i++) {
+            for (var i = 0; i < 70; i++) {
                 setTimeout(() => {
                     createHeart(event.clientX, event.clientY);
                 }, i * 100); // Atrasa a criação de cada coração para que eles apareçam um após o outro
